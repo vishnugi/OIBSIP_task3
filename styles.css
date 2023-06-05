@@ -1,0 +1,60 @@
+body{
+  background-color: antiquewhite;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(241, 157, 48);
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.lists-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  flex: 1;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  cursor: pointer;
+}
